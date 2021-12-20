@@ -4,20 +4,36 @@ import './ProvenPath.css';
 
 
 export default class ProvenPath extends Component {
-  constructor() {
-    super();
-    this.state = {
-      grid: [],
-      mouseIsPressed: false,
-    };
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+            nodes: [],
+   
+        };
+    }
+    componentDidMount() {
+        const nodes = [];
+        for (let row = 0; row < 15; row++) {
+            const currentRow = [];
+            for (let col = 0; col < 50; col++) {
+                currentRow.push([]);
+            }
+            nodes.push(currentRow);
+        }
+        this.setState({nodes})
+    }
 
     render() {
+        const { nodes } = this.state;
+        console.log(nodes);
         return (
-            <div>
-                feed me whats for dinner?
-                also love you lots? 
-                <Node></Node>
+            <div className="grid"> 
+                {nodes.map((row, rowIdx) => {
+                    return <div>
+                        {row.map((node, nodeIdx) => <Node></Node>)}
+
+                    </div>
+                })}
             </div>
         );
     }
