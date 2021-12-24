@@ -7,11 +7,11 @@
 }
 
 .node-finish {
-  background-color: red;
+background-image: url("images/target.svg")
 }
 
 .node-start {
-  background-color: green;
+  background-image: url("images/car.svg")
 }
 
 .node-visited {
@@ -28,8 +28,8 @@
 @keyframes visitedAnimation {
   0% {
     transform: scale(0.3);
-    background-color: rgba(0, 0, 66, 0.75);
-    border-radius: 100%;
+    background-color:rgba(0, 217, 159, 0.75) ;
+        border-radius: 100%;
   }
 
   50% {
@@ -43,12 +43,12 @@
 
   100% {
     transform: scale(1);
-    background-color: rgba(0, 190, 218, 0.75);
+    background-color: rgb(254, 254, 255);
   }
 }
 
 .node-wall {
-  background-color: rgb(12, 53, 71);
+ background-image : url("images/wall.svg")
 }
 
 .node-shortest-path {
@@ -65,16 +65,16 @@
 @keyframes shortestPath {
   0% {
     transform: scale(0.6);
-    background-color: rgb(255, 254, 106);
+     background-image: url("images/car.svg")
   }
 
   50% {
     transform: scale(1.2);
-    background-color: rgb(255, 254, 106);
+    background-image: url("images/car.svg")
   }
 
   100% {
     transform: scale(1);
-    background-color: rgb(255, 254, 106);
+      background-image: url("images/car.svg")
   }
 }
