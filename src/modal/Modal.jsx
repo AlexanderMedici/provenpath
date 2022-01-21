@@ -15,7 +15,7 @@ const Modal = props => {
     return function cleanup() {
       document.body.removeEventListener("keydown", closeOnEscapeKeyDown);
     };
-  }, []);
+  }, [closeOnEscapeKeyDown]);
 
   return ReactDOM.createPortal(
     <CSSTransition

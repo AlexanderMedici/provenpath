@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "./carousel.css";
 
 
-export default class DemoCarousel extends Component {
+export default class PathCarousel extends Component {
     render() {
         return (
             <Carousel className='text'>
@@ -18,7 +17,7 @@ export default class DemoCarousel extends Component {
                 </div>
                 <div>
                     <section>
-                        <h1>A Tale of Love And Algorithms</h1>
+                        <h1>A Tale of Love And  An Algorithm</h1>
                         What is the shortest way to travel from Rotterdam to Groningen, in general: from given city to given city. It is the algorithm for the shortest path, which I designed in about twenty minutes.
                         One morning I was shopping in Amsterdam with my young fiancée, and tired, we sat down on the café terrace to drink a cup of coffee and I was just thinking about whether I could do this,
                         and I then designed the algorithm for the shortest path. As I said, it was a twenty-minute invention. In fact, it was published in '59, three years later. The publication is still readable, it is, in fact, quite nice.
@@ -31,21 +30,28 @@ export default class DemoCarousel extends Component {
                 
                 </div>
                 <div>
-                    <section>Et id officia anim Lorem pariatur dolor proident ad eu qui aliqua excepteur nulla. Nulla mollit in est non nostrud velit adipisicing nisi dolore officia ea. Aute nostrud anim aute sunt dolor aliqua. Minim voluptate fugiat eu non occaecat est est. Id ut voluptate nulla sunt ullamco labore dolore deserunt deserunt elit do et est cillum. Anim cillum non dolore culpa do. Eiusmod qui esse commodo id mollit labore ad consectetur.
-
-Consequat dolore duis aute adipisicing sit ea exercitation tempor duis ea proident. Nostrud culpa adipisicing aute mollit enim consectetur. Officia pariatur anim consectetur consequat cupidatat. Commodo nisi consequat dolor cillum aute sunt nisi in. Cillum elit ipsum proident dolor cupidatat qui magna id occaecat commodo Lorem. Aute minim pariatur occaecat magna velit commodo et Lorem ut pariatur enim veniam.
-
-Commodo sit sint nisi ut sit Lorem occaecat excepteur dolor consequat ullamco voluptate commodo. Lorem fugiat irure laborum ut qui aliqua occaecat pariatur nostrud aliqua ullamco eu deserunt eu. Dolore Lorem mollit nulla voluptate eu quis ullamco ea dolore aliqua ea in. Elit aliquip velit quis tempor ad veniam cupidatat ipsum non dolore incididunt cillum. Amet consequat minim id excepteur laboris nisi amet anim tempor irure.
-
-Culpa enim ut cupidatat voluptate adipisicing aliqua nulla qui. Non reprehenderit sint velit consectetur in deserunt ad. Aliqua velit dolor aliquip aliquip quis reprehenderit.
-
-Irure fugiat quis consectetur enim. Et eu adipisicing reprehenderit et aliquip. Sint laboris exercitation elit incididunt cupidatat do enim nulla consectetur. Voluptate amet duis amet cupidatat officia aliquip qui eiusmod enim officia voluptate. Exercitation occaecat exercitation quis nisi commodo labore Lorem est consequat exercitation exercitation.
-
-Exercitation ad consequat id aliqua pariatur enim duis officia do incididunt aliquip labore quis aliquip. Commodo nisi incididunt nulla culpa sunt duis adipisicing sint duis nisi nulla. Dolore laboris minim dolor cillum cupidatat laborum ad excepteur proident est. Ut ut reprehenderit est sunt cupidatat Lorem cillum ea ea.</section>
+                    <section><h1>How To</h1>
+                        <ul>
+                            <li> To set a barrier in the shortest path, you can click on the on the grid and hold right click  as you move a building will appear.</li>
+                            <li>To remove a barrier, you can click on the grid again.</li>
+                            <li>You cannot change the starting and ending point.</li>
+                            <li> Once You are done setting your obstacles , click on the "Run Algorithm" button.</li>
+                            <li>The Path will be revealed</li> 
+                            <li>You can click on the "Reset" button to reset the grid</li>
+                            </ul>
+                    </section>
                 
                 </div>
                  <div>
-                    <section>Fugiat eiusmod excepteur anim eu. Eu enim excepteur aute laborum in excepteur est non. Veniam duis incididunt consequat tempor aute id anim ad. Excepteur minim elit sunt consequat. Amet officia excepteur pariatur in est ad non anim do excepteur tempor eiusmod.</section>
+                    <section>
+                        <h1>Acknowledgements</h1>
+                        <h3> Coded By Alexander Magnus Medici</h3>
+                        <ul>
+                            I would like to thank the following sources for their help:
+                            <li ><a href="https://www.programiz.com/dsa/dijkstra-algorithm"> Dijkstras  Algorithm</a> </li>
+                            <li ><a href ="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"> Dijkstras  Algorithm Wikipedia</a> </li>
+                        </ul>
+                    </section>
        
                 </div>
                 

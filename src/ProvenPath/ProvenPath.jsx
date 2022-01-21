@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Node from './Node/Node';
-import './ProvenPath.css';
-import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
-const START_NODE_ROW = 2;
-const START_NODE_COL =2;
-const FINISH_NODE_ROW = 19;
-const FINISH_NODE_COL = 49;
+import './stylePath.css';
+import { dijkstra, getNodesInShortestPathOrder } from '../algorithms/dijkstra';
+// start position of start and finish node
+const START_NODE_ROW = 0;
+const START_NODE_COL =0;
+const FINISH_NODE_ROW = 49;
+const FINISH_NODE_COL = 19;
 
 
 export default class ProvenPath extends Component {
@@ -71,20 +72,26 @@ export default class ProvenPath extends Component {
     const nodesInShortestPathOrder = getNodesInShortestPathOrder(finishNode);
     this.animateDijkstra(visitedNodesInOrder, nodesInShortestPathOrder);
   }
+  
+
 
   render() {
     const {grid, mouseIsPressed} = this.state;
 
     return (
       <>
+        <center><h1>Dijkstra's Algorithm Visualizer</h1>
+        <h4>Shortest Path Guaranteed </h4>
+        </center>
+  
         <button className ="button"onClick={() => this.visualizeDijkstra()}>
-         Dijkstra's Algorithm
+         Run Algorithm
         </button>
-        <br/>
-        <br/>
+    
           <button className ="button"onClick={() => this.visualizeDijkstra()}>
           Clear Board
         </button>
+        <div className="grid-wrapper">
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
@@ -110,17 +117,19 @@ export default class ProvenPath extends Component {
               </div>
             );
           })}
-        </div>
-      </>
+          </div>
+          </div>
+        </>
+        
     );
   }
 }
 
 const getInitialGrid = () => {
   const grid = [];
-  for (let row = 0; row < 20; row++) {
+  for (let row = 0; row < 50; row++) {
     const currentRow = [];
-    for (let col = 0; col < 50; col++) {
+    for (let col = 0; col < 20; col++) {
       currentRow.push(createNode(col, row));
     }
     grid.push(currentRow);

@@ -14,13 +14,7 @@ export default class Node extends Component {
       onMouseUp,
       row,
     } = this.props;
-    const extraClassName = isFinish
-      ? 'node-finish'
-      : isStart
-      ? 'node-start'
-      : isWall
-      ? 'node-wall'
-      : '';
+    const extraClassName = isFinish ? 'node-finish': isStart ? 'node-start': isWall? 'node-wall': '';
 
     return (
       <div

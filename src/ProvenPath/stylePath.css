@@ -1,18 +1,47 @@
 .grid {
-  margin: 100px;
+  margin: auto 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0;
+}
+.grid-wrapper {
+  display: grid;
+
+  grid-gap: 1px;
+  margin: 0 auto;
+  padding: 0;
+}
+.show-button{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+
 }
 button, button::after {
-  width: 300px;
-  height: 86px;
-  font-size: 20px;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 200px;
+  height: 70px;
+  font-size:20px;
   font-family: 'Bebas Neue', cursive;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
-  border: 0;
-  color: #fff;
+  background: linear-gradient(45deg, transparent 5%, rgba(1, 5, 255, 0.911) 5%);
+  border: 0px;
+  color: rgb(240, 217, 15);
   letter-spacing: 3px;
   line-height: 88px;
   outline: transparent;
-  position: relative;
+  
+  
 }
 
 button::after {
@@ -23,14 +52,14 @@ button::after {
   --slice-4: inset(40% -6px 43% 0);
   --slice-5: inset(80% -6px 5% 0);
   
-  content: 'Great Coder';
+  content: 'Hire Me';
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, rgba(1, 5, 255, 0.911)  5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -86,3 +115,4 @@ button:hover::after {
     transform: translate(0);
   }
 }
+

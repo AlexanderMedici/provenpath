@@ -1,7 +1,9 @@
 import React, { useState} from 'react';
 import ProvenPath from './ProvenPath/ProvenPath';
 import Modal from './modal/Modal';
-import DemoCarousel from './modal/carousel.jsx';
+import PathCarousel from './modal/carousel.jsx';
+
+
 
 function App() {
   const [show, setShow] = useState(false);
@@ -10,12 +12,11 @@ function App() {
   return (
     <div className='App'>
       <ProvenPath></ProvenPath>
-       <button onClick={() => setShow(true)}>Show Modal</button>
-      <Modal title="User Guide" onClose={() => setShow(false)} show={show}>
+       <button className="show-button"onClick={() => setShow(true)}>How To Play</button>
+      <Modal title="PROVEN PATH " onClose={() => setShow(false)} show={show}>
         
-        <DemoCarousel></DemoCarousel>
+        <PathCarousel></PathCarousel>
       </Modal>
-      
     </div>
   );
 }
