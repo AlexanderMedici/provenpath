@@ -18,13 +18,7 @@ export default class PathCarousel extends Component {
                 <div>
                     <section>
                         <h1>A Tale of Love And  An Algorithm</h1>
-                        What is the shortest way to travel from Rotterdam to Groningen, in general: from given city to given city. It is the algorithm for the shortest path, which I designed in about twenty minutes.
-                        One morning I was shopping in Amsterdam with my young fiancée, and tired, we sat down on the café terrace to drink a cup of coffee and I was just thinking about whether I could do this,
-                        and I then designed the algorithm for the shortest path. As I said, it was a twenty-minute invention. In fact, it was published in '59, three years later. The publication is still readable, it is, in fact, quite nice.
-                        One of the reasons that it is so nice was that I designed it without pencil and paper. I learned later that one of the advantages of designing without pencil and paper is that you are almost forced to avoid all avoidable complexities.
-                        Eventually, that algorithm became to my great amazement, one of the cornerstones of my fame.
-
-                        — Edsger Dijkstra, in an interview with Philip L. Frana, Communications of the ACM, 2001
+                        What is the shortest way to travel from Rotterdam to Groningen, in general: from given city to given city. It is the algorithm for the shortest path, which Edsger Dijkstra completed in 20 mins while drinking coffee with his fiancee, designing without pencil and paper which almost forced him to avoid all avoidable complexities. — Edsger Dijkstra, in an interview with Philip L. Frana, Communications of the ACM, 2001
           
                     </section>
                 
@@ -48,8 +42,8 @@ export default class PathCarousel extends Component {
                         <h3> Coded By Alexander Magnus Medici</h3>
                         <ul>
                             I would like to thank the following sources for their help:
-                            <li ><a href="https://www.programiz.com/dsa/dijkstra-algorithm"> Dijkstras  Algorithm</a> </li>
-                            <li ><a href ="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"> Dijkstras  Algorithm Wikipedia</a> </li>
+                            <li ><a href="https://www.programiz.com/dsa/dijkstra-algorithm" target="_blank"rel="noopener noreferrer"> Dijkstras  Algorithm</a> </li>
+                            <li ><a href ="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank" rel="noopener noreferrer"> Dijkstras  Algorithm Wikipedia</a> </li>
                         </ul>
                     </section>
        
