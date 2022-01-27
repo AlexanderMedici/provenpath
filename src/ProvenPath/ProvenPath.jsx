@@ -73,6 +73,9 @@ export default class ProvenPath extends Component {
     this.animateDijkstra(visitedNodesInOrder, nodesInShortestPathOrder);
   }
   
+  clearDijkstra () {
+window.location.reload(false); 
+   }
 
 
   render() {
@@ -88,7 +91,7 @@ export default class ProvenPath extends Component {
          Run Algorithm
         </button>
     
-          <button className ="button"onClick={() => this.visualizeDijkstra()}>
+        <button className="button" onClick={ ()=>this.clearDijkstra()} >
           Clear Board
         </button>
         <div className="grid-wrapper">
