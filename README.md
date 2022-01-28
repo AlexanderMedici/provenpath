@@ -29,9 +29,9 @@ This algorithm will find the shortest path as it will take into account all poss
 
 ## Links
 
-- [Repo](https://github.com/AlexanderMedici/provenpath/ "<Proven_Path> Repo")
+- [Github][Repo](https://github.com/AlexanderMedici/provenpath/ "<Proven_Path> Repo")
 
-- [Live](<https://dijkstraalgorithmvisulaizer.netlify.app> "Live View")
+- [Website][LiveLink](<https://dijkstraalgorithmvisulaizer.netlify.app> "Live View")
 
 
 ## Screenshots
