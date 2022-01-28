@@ -13,7 +13,8 @@
 - [Usage](#usage)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-- [Contact Me](#contact Me)
+- [ContactMe](#contactMe)
+
 
 ## Description
 
