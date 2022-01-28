@@ -77,7 +77,7 @@ For running the server file you can use this command.
 
 **Alexander Medici**
 
-- [Profile](https://github.com/rohit19060 "Rohit jain")
+- [Profile](https://github.com/AlexanderMedici "Alexander Medici")
 - [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
 - [Website]("Welcome")
 
