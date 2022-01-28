@@ -1,75 +1,117 @@
-# Live Link [Live-Link](https://dijkstraalgorithmvisulaizer.netlify.app). 
+![License](https://img.shields.io/github/license/AlexanderMedici/provenpath.svg?style=for-the-badge) ![Repo Size](https://img.shields.io/github/languages/code-size/AlexanderMedici/provenpath.svg?style=for-the-badge) ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/AlexanderMedici/provenpath.svg?style=for-the-badge) ![FORKS](https://img.shields.io/github/forks/AlexanderMedici/provenpath.svg?style=for-the-badge&social) ![Stars](https://img.shields.io/github/stars/AlexanderMedici/provenpath.svg?style=for-the-badge)
+    
+# ProvenPath
+
+## Table of Contents
+
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contacts](#contacts)
+
+## Description
 
 
 
+<h1 align="center">Proven Path<project-name></h1>
 
-# Getting Started with Create React App
+<p align="center">The algorithm exists in many variants. Dijkstra's original algorithm found the shortest path between two given nodes, but a more common variant fixes a single node as the "source" node and finds the shortest paths from the source to all other nodes in the graph, producing a shortest-path tree. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="left">
+Use Case<project-name></h3>
+This algorithm will find the shortest path as it will take into account all possible routes. This is not the most efficient in terms of big O notation as the amount of data that must be processed is larger but the route is guaranteed to be the shortest. This algorithm is used for navigation services such as Google Maps, Waze, typically available as apps in android and apple ecosystems. <project-description></p>
 
-## Available Scripts
+## Links
+
+- [Repo](https://github.com/AlexanderMedici/provenpath/ "<Proven_Path> Repo")
+
+- [Live](<https://dijkstraalgorithmvisulaizer.netlify.app> "Live View")
+
+
+## Screenshots
+![Alt Text]( https://media.giphy.com/media/BdzqQnPbn0S5xEoSV8/giphy.gif)
+
+## Available Commands
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start" : "react-scripts start"`,
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `"npm run build": "react-scripts build"`,
 
-### `npm test`
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `"npm run test": "react-scripts test"`,
 
-### `npm run build`
+Launches the test runner in the interactive watch mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `"serve": "node server"`
 
-### `npm run eject`
+For running the server file you can use this command.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `npm run serve`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
+- JavaScript
+- React
+- HTML
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Updates
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] Faster algorithms
+- [ ] More Obstacles ie generate a maze
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Alexander Medici**
 
-### Code Splitting
+- [Profile](https://github.com/rohit19060 "Rohit jain")
+- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
+- [Website]("Welcome")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Support
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Screenshots
 
-### Advanced Configuration
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="40px" width="40px" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="40px" width="40px" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40px" width="40px" /></a><a href="https://reactjs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="40px" width="40px" /></a><a href="https://www.typescriptlang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="40px" width="40px" /></a>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+<a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/cczero.svg" height=40 />Creative Commons Zero v1.0 Universal</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+
+
+<p>Check out <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm/" target="_blank">Wikipedia</a>.</p>
+
+
+## Contacts
+
+<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/alexmedici/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:contactimedici@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
+
+
+
+
