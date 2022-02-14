@@ -1,110 +1,99 @@
 ![License](https://img.shields.io/github/license/AlexanderMedici/provenpath.svg?style=for-the-badge) ![Repo Size](https://img.shields.io/github/languages/code-size/AlexanderMedici/provenpath.svg?style=for-the-badge) ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/AlexanderMedici/provenpath.svg?style=for-the-badge) ![FORKS](https://img.shields.io/github/forks/AlexanderMedici/provenpath.svg?style=for-the-badge&social) ![Stars](https://img.shields.io/github/stars/AlexanderMedici/provenpath.svg?style=for-the-badge)
+
     
-# ProvenPath
+  ## Table of Contents
 
-## Table of Contents
-
-- [Description](#description)
+- [Project Website](#project-website)
+- [Features](#features)
+- [Description](#description) 
+- [Use Case](#use-case)
 - [Screenshots](#screenshots)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Available Commands](#available-commands)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [ContactMe](#contactMe)
+- [Contact Me](#contact-me)
+    
+    
+## Project Website
+
+- [Link to Project Website ][LiveLink](<https://dijkstraalgorithmvisulaizer.netlify.app> "Live View")
+
+
+
+
+## Features
+<ul>
+<li>Responsive design</li>
+<li>Static Page </li>
+<li>CSS Animations
+</li>
+<li>Dijkstra’s Routing Algorithm
+</li>
+</ul>
+<br>
 
 
 ## Description
 
+This is a path finder project which makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes. 
+
+## Use Case
+1. Digital Mapping Services in Google Maps - find the minimum distance in Google Maps, from your starting location to the nearest desired location. 
+2. Social Networking Applications: Can be applied using the shortest path between users measured through handshakes or connections.
+3. Telephone Networks: In a telephone network each line has a bandwidth. And the bandwidth represents the amount of information that can be transmitted by the line. Normally, the frequency of signals is higher in certain lines. So the signal is reduced by that line. Thus, the need for good bandwidth in any given location may run into the shortest distance problem.   
+4. IP routing to find Open shortest Path First: Dijkstra’s algorithm is widely used in the routing protocols required by the routers to update their forwarding table. The algorithm provides the shortest cost path from the source router to other routers in the network.
+5. Flighting Agenda: For example, If a person needs software for making an agenda of flights for customers. The agent has access to a database with all airports and flights.
+6. Designate file server: To designate a file server in a LAN(local area network), Dijkstra’s algorithm can be used to minimize the number of “hops” from the file server to every other computer on the network.
+7. AI Robotics: The drones/robots which are automated and are used to deliver the packages to a specific location or used for a task are loaded with this algorithm module so that when the source and destination is known, the robot/drone moves in the ordered direction by following the shortest path to keep delivering the package in a minimum amount of time.
+<br/>
+
+## Technologies Used
 
 
-<h1 align="center">Proven Path<project-name></h1>
 
-<p align="center">The algorithm exists in many variants. Dijkstra's original algorithm found the shortest path between two given nodes, but a more common variant fixes a single node as the "source" node and finds the shortest paths from the source to all other nodes in the graph, producing a shortest-path tree. 
+<a href="https://developer.mozilla.org/en-US/docs/Web/javascript"><img src="https://img.shields.io/badge/MADE WITH-JAVASCRIPT-green?labelColor=blue&style=flat&link=https://developer.mozilla.org/en-US/docs/Web/javascript" alt="MADE WITH " /></a>
+<a href="https://devdocs.io/html/"><img src="https://img.shields.io/badge/MADE WITH-HTML-green?labelColor=blue&style=flat&link=https://devdocs.io/html/" alt="MADE WITH " /></a>
 
-<h3 align="left">
-Use Case<project-name></h3>
-This algorithm will find the shortest path as it will take into account all possible routes. This is not the most efficient in terms of big O notation as the amount of data that must be processed is larger but the route is guaranteed to be the shortest. This algorithm is used for navigation services such as Google Maps, Waze, typically available as apps in android and apple ecosystems. <project-description></p>
-
-## Links
-
-- [Github][Repo](https://github.com/AlexanderMedici/provenpath/ "<Proven_Path> Repo")
-
-- [Website][LiveLink](<https://dijkstraalgorithmvisulaizer.netlify.app> "Live View")
-
-
+<a href="https://devdocs.io/css/"><img src="https://img.shields.io/badge/MADE WITH-CSS-green?labelColor=blue&style=flat&link=https://devdocs.io/css/" alt="MADE WITH " /></a>
 ## Screenshots
-![Alt Text]( https://media.giphy.com/media/BdzqQnPbn0S5xEoSV8/giphy.gif)
+
+<img src="https://media.giphy.com/media/ois5IF9rqbYfzbPeUL/giphy.gif"/>
+
+
+
+
+
+
+
+
 
 ## Available Commands
 
 In the project directory, you can run:
 
-### `npm start" : "react-scripts start"`,
+### `Right-CLick and Hold"`,
 
-The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
-You will also see any lint errors in the console.
+The app is built to respond to right-Click and hold on a mouse this creates and removes buildings
 
-### `"npm run build": "react-scripts build"`,
+### `"Run ALgorithm"`,
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
+Click on the Button Run Algorithm  CSS3 animations will run as a route is being searched for. 
 
-### `"npm run test": "react-scripts test"`,
+### `"Clear Board"`: ,
 
-Launches the test runner in the interactive watch mode.
-
-### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
-
-For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
-
-### `"serve": "node server"`
-
-For running the server file you can use this command.
-
-### `npm run serve`
-
-## Built With
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="40px" width="40px" /></a></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40px" width="40px" /></a><a href="https://reactjs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="40px" width="40px" /></a><a href="https://www.typescriptlang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="40px" width="40px" /></a>
-
-## Future Updates
-
-- [ ] Faster algorithms
-- [ ] More Obstacles ie generate a maze
-
-
-## Author
-
-**Alexander Medici**
-
-- [Profile](https://github.com/AlexanderMedici "Alexander Medici")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website]("Welcome")
-
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
-
-
-
+Resets the Board. 
 
 ## License
 
-<a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/cczero.svg" height=40 />Creative Commons Zero v1.0 Universal</a>
-
-## Acknowledgements
-
-
-<p>Check out <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm/" target="_blank">Wikipedia</a>.</p>
+<a href="https://choosealicense.com/licenses/mit/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/mit.svg" height=40 />MIT License</a>
 
 
 ## Contact Me
 
 <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/alexmedici/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:contactimedici@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
+## 🤝 Support
 
+Contributions, issues, and feature requests are welcome!
 
-
+Give a ⭐️ if you like this project!
 
