@@ -57,7 +57,7 @@ This is a path finder project which makes use of Dijkstra's algorithm. The proje
 <a href="https://devdocs.io/css/"><img src="https://img.shields.io/badge/MADE WITH-CSS-green?labelColor=blue&style=flat&link=https://devdocs.io/css/" alt="MADE WITH " /></a>
 ## Screenshots
 
-<img src="https://media.giphy.com/media/ois5IF9rqbYfzbPeUL/giphy.gif"/>
+<img src="https://media.giphy.com/media/BdzqQnPbn0S5xEoSV8/giphy.gif"/>
 
 
 
