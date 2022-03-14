@@ -83,8 +83,9 @@ window.location.reload(false);
 
     return (
       <>
-        <center><h1>Dijkstra's Algorithm Visualizer</h1>
-        <h4>Shortest Path Guaranteed </h4>
+        <center><h1>A Path Finding Visualization Tool</h1>
+        <h4>This Path Finder Implements Dijkstra's algorithm to find the shortest path between two points on the graph.
+</h4>
         </center>
   
         <button className ="button"onClick={() => this.visualizeDijkstra()}>

@@ -17,7 +17,7 @@ export default class PathCarousel extends Component {
                 </div>
                 <div>
                     <section>
-                        <h1>A Tale of Love And  An Algorithm</h1>
+                        <h1> An Algorithm</h1>
                         What is the shortest way to travel from Rotterdam to Groningen, in general: from given city to given city. It is the algorithm for the shortest path, which Edsger Dijkstra completed in 20 mins while drinking coffee with his fiancee, designing without pencil and paper which almost forced him to avoid all avoidable complexities. — Edsger Dijkstra, in an interview with Philip L. Frana, Communications of the ACM, 2001
           
                     </section>
@@ -27,8 +27,8 @@ export default class PathCarousel extends Component {
                     <section><h1>HOW TO PLAY</h1>
                         <ul>
                             <li> The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided.</li>
-                            <li>To remove a barrier, you can click on the grid again.</li>
                             <li>One can use their mouse anywhere on the grid, to block the route between the two nodes. Spaces which are blocked out on the grid will be displayed as buildings.</li>
+                              <li>To remove a building, you can click on  that building on the grid  again it will be removed.</li>
                             <li> Once the user is satisfied with the areas blocked on the grid, the 'Run Algorithm' button can be clicked.</li>
                             <li>The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.</li> 
                             <li>You can click on the "Reset" button to reset the grid</li>
