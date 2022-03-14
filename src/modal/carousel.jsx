@@ -12,7 +12,7 @@ export default class PathCarousel extends Component {
                     <section>
                         <h1>Welcome  To Proven Path</h1>
                         This short tutorial will walk you through all of the features of this application.
-                        If you want to dive right in, feel free to press the "close" button below. Otherwise Click on each ot the dots below</section>
+                        If you want to dive right in, feel free to press the "close" button below. Otherwise Click on each of the dots below</section>
                   
                 </div>
                 <div>
@@ -24,13 +24,13 @@ export default class PathCarousel extends Component {
                 
                 </div>
                 <div>
-                    <section><h1>How To</h1>
+                    <section><h1>HOW TO PLAY</h1>
                         <ul>
-                            <li> To set a barrier in the shortest path, you can click on the on the grid and hold right click  as you move a building will appear.</li>
+                            <li> The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided.</li>
                             <li>To remove a barrier, you can click on the grid again.</li>
-                            <li>You cannot change the starting and ending point.</li>
-                            <li> Once You are done setting your obstacles , click on the "Run Algorithm" button.</li>
-                            <li>The Path will be revealed</li> 
+                            <li>One can use their mouse anywhere on the grid, to block the route between the two nodes. Spaces which are blocked out on the grid will be displayed as buildings.</li>
+                            <li> Once the user is satisfied with the areas blocked on the grid, the 'Run Algorithm' button can be clicked.</li>
+                            <li>The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.</li> 
                             <li>You can click on the "Reset" button to reset the grid</li>
                             </ul>
                     </section>
@@ -42,8 +42,8 @@ export default class PathCarousel extends Component {
                         <h3> Coded By Alexander Magnus Medici</h3>
                         <ul>
                             I would like to thank the following sources for their help:
-                            <li ><a href="https://www.programiz.com/dsa/dijkstra-algorithm" target="_blank"rel="noopener noreferrer"> Dijkstras  Algorithm</a> </li>
-                            <li ><a href ="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank" rel="noopener noreferrer"> Dijkstras  Algorithm Wikipedia</a> </li>
+                            <li ><a href="https://www.programiz.com/dsa/dijkstra-algorithm" target="_blank"rel="noreferrer"> Dijkstras  Algorithm</a> </li>
+                            <li ><a href ="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank" rel="noreferrer"> Dijkstras  Algorithm Wikipedia</a> </li>
                         </ul>
                     </section>
        
